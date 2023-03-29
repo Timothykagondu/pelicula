@@ -6,6 +6,6 @@ const Nav = () => {
       <Link to="/HomePage" style={{ paddingRight: "15px" }}>Home</Link>
     </nav>
   );
-};
+}
 
 export default Nav;
