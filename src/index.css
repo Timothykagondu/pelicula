@@ -1,13 +1,17 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+nav {
+  background-color: #333; /* set background color of navbar */
+  overflow: hidden; /* hide any overflowing elements */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav a {
+  float: left; /* float links to the left */
+  color: #fff; /* set link text color */
+  text-align: center; /* center text within links */
+  padding: 14px 16px; /* add padding around links */
+  text-decoration: none; /* remove underline from links */
+}
+
+nav a:hover {
+  background-color: #ddd; /* change background color of link when hovered */
+  color: #333; /* change link text color when hovered */
 }
