@@ -20,6 +20,7 @@ code {
   text-align: center;
   font-style: italic;
   padding-bottom: 50vh;
+  background-color: #01091bbb;
 }
 .genre1{
   display: flex;
@@ -181,10 +182,10 @@ code {
 .nav1{
   position: fixed;
   background-color:rgb(0, 0, 0);
-  padding: 3px 15px 5px;
+  padding: 1px 15px 5px 130px ;
   width: 100vw;
   font-family: "ubuntu", sans-serif;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 10px;
   
 }
@@ -263,7 +264,7 @@ button:hover {
 
 .genres{
   padding-top: 50px;
-  background-color: #1b202073;
+  background-color: #01091bbb;
 }
 
 .movies{
@@ -295,4 +296,8 @@ button:hover {
   text-decoration: double;
   color: rgb(255, 255, 255);
   font-size: larger;
+}
+
+.review-1{
+  background-color: #01091bbb;
 }

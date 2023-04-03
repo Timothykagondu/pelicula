@@ -5,7 +5,7 @@ import HomePage from './components/HomePage';
 import Nav from './components/NavBar';
 import LoginPage from './components/LoginPage';
 import Movies from './components/Movies';
-
+import ReviewPage from './components/ReviewPage';
 
 
 
@@ -24,7 +24,7 @@ function App() {
                  </Routes>
           </BrowserRouter>
 
-
+          <ReviewPage/>
 
     </div>
   
