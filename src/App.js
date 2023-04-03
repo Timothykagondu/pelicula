@@ -22,9 +22,9 @@ function App() {
                   <Route path='/LoginPage' element={<LoginPage/>}/>
                   <Route path='/Movies' element={<Movies/>}/>
                  </Routes>
+              <ReviewPage/>
+                 
           </BrowserRouter>
-
-          <ReviewPage/>
 
     </div>
   

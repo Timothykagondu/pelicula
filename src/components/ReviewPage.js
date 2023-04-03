@@ -67,8 +67,6 @@ function Review() {
         <br />
         <br />
         <br />
-
-       
       </div>
     </div>
   );

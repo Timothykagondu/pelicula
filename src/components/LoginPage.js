@@ -1,11 +1,12 @@
 import React from "react";
 import { useState } from 'react';
 
+
 function LoginPage () {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     function handleLogin() {
-        alert(`Welcome ${username}! You have successfully logged in.`);
+        alert(`Welcome ${username}! You have successfully signed  up.`);
       }
     return (
         <div class="hero">
@@ -57,9 +58,14 @@ function LoginPage () {
           onChange={(e) => setPassword(e.target.value)}
         />
         <br />
-        <button type="submit">Sign up</button>
+        <button type="submit" >Sign up</button>
+        <br>
+        </br>
+        <br>
+        </br>
       </form>
         </div>
+       
     </div>
     );
 }

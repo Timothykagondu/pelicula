@@ -33,7 +33,7 @@ code {
 .hero {
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(rgba(66, 67, 124, 0.4), rgba(31, 56, 59, 0.4));
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(29, 80, 125));
   background-position: center;
   background-size: cover;
   position: absolute;

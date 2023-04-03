@@ -30,22 +30,6 @@ function Movies() {
       .catch((error) => console.error(error));
   }, [movieId]);
 
-  const handleLike = () => {
-    setLikes (likes + 1);
-    fetch(`'https://pelicula.onrender.com/movies'${movieId}/like`, { method: 'POST' })
-      .then((response) => response.json())
-      .then((data) => setLikes(data))
-      .catch((error) => console.error(error));
-  };
-
-  const handleDislike = () => {
-    setDisLikes (likes - 1);
-    fetch(`''https://pelicula.onrender.com/movies'${movieId}/dislike`, { method: 'POST' })
-      .then((response) => response.json())
-      .then((data) => setDisLikes(data))
-      .catch((error) => console.error(error));
-  };
-  
   if (!movieData) {
     return <div>Loading...</div>;
   }
@@ -72,13 +56,6 @@ function Movies() {
 
       <h1>{movieData.title}</h1>
       <p>{movieData.description}</p>
-      <p>Likes: {movieData.likes}</p>
-      <p>Dislikes: {movieData.dislikes}</p>
-      <button onClick={handleLike}>Like</button>
-      <span> {likes} </span>
-      <button onClick={handleDislike}>Dislike</button>
-      <span> {dislikes} </span>
-
     </div>
 
     </div>
